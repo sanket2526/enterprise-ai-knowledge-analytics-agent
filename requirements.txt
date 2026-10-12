@@ -1,0 +1,7 @@
+pandas
+numpy
+python-dotenv
+sentence-transformers
+google-genai
+sqlglot
+jupyter

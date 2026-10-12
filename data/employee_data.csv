@@ -1,0 +1,22 @@
+
+employee_id,department,location,joining_date,employment_type,manager_id
+E1001,Engineering,Bengaluru,2023-02-13,Full-time,M201
+E1002,Human Resources,Bengaluru,2023-04-10,Full-time,M202
+E1003,Sales,Mumbai,2023-06-19,Full-time,M203
+E1004,Engineering,Hyderabad,2023-09-04,Full-time,M201
+E1005,Finance,Mumbai,2023-11-20,Full-time,M204
+E1006,Engineering,Bengaluru,2024-01-15,Full-time,M201
+E1007,Marketing,Delhi,2024-03-11,Full-time,M205
+E1008,Sales,Mumbai,2024-04-22,Full-time,M203
+E1009,Human Resources,Bengaluru,2024-07-08,Full-time,M202
+E1010,Engineering,Hyderabad,2024-09-16,Full-time,M201
+E1011,Finance,Mumbai,2024-11-04,Full-time,M204
+E1012,Engineering,Bengaluru,2025-01-06,Full-time,M201
+E1013,Marketing,Delhi,2025-02-17,Full-time,M205
+E1014,Sales,Mumbai,2025-03-10,Full-time,M203
+E1015,Engineering,Hyderabad,2025-04-14,Full-time,M201
+E1016,Human Resources,Bengaluru,2025-05-19,Full-time,M202
+E1017,Finance,Mumbai,2025-07-07,Full-time,M204
+E1018,Engineering,Bengaluru,2025-08-18,Full-time,M201
+E1019,Sales,Mumbai,2025-10-06,Full-time,M203
+E1020,Marketing,Delhi,2025-11-03,Full-time,M205
