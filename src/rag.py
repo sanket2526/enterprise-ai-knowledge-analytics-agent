@@ -1,4 +1,3 @@
-
 import os
 from dotenv import load_dotenv
 from google import genai
@@ -15,14 +14,13 @@ client = genai.Client(api_key=api_key)
 MODEL_NAME = "gemini-3.5-flash-lite"
 
 
-def answer_question(question, chunks, embeddings):
+def answer_question(question, collection):
     """Answer a policy question using retrieved document context."""
 
     # Step 1: Retrieve relevant policy chunks
     results = search_policies(
         question=question,
-        chunks=chunks,
-        embeddings=embeddings,
+        collection=collection,
         top_k=3
     )
 
@@ -79,7 +77,7 @@ if __name__ == "__main__":
     print("Initializing Enterprise AI Knowledge Agent...")
 
     # Build the search index once when the program starts
-    chunks, embeddings = build_search_index()
+    collection = build_search_index()
 
     print("\nAgent is ready!")
     print("Ask a question about company policies.")
@@ -98,8 +96,7 @@ if __name__ == "__main__":
         try:
             result = answer_question(
                 question,
-                chunks,
-                embeddings
+                collection
             )
 
             print("\nAgent:", result["answer"])

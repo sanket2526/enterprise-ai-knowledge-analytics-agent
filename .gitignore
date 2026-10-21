@@ -4,3 +4,4 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 data/employee_analytics.db
+data/chroma_db/
